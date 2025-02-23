@@ -1,6 +1,9 @@
 void setup() {
-  // put your setup code here, to run once:
-
+  // setup sensors
+  int tc77_err = setup_tc77();
+  int npp_301_err = setup_npp_301();
+  int bmi323_err = setup_bmi323();
+  int
 }
 
 void loop() {
